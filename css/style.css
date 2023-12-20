@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+#wrap{
+	width: 600px;
+	margin: 0 auto;
+	background-color: #333;
+}
+
+header{
+	position: relative; /* 기준점 역할 */
+	height: 100px;
+	background-color: #069;
+}
+
+header>,.title{
+	
+}
+header>.title>a{
+	color: white;
+	position: absolute;
+	left: 50px;
+	top: 45px;
+}
+
+header>nav{
+	position: absolute;
+	left: 230px;
+	top: 50px;
+	
+}
+header>nav>.gnb{
+	display: flex;
+		
+	flex-flow: row nowrap;
+	
+	justify-content: space-between;
+	
+	width: 350px;
+	
+	
+}
+header>nav>.gnb>li{}
+header>nav>.gnb>li>a{
+	color: white;
+}
+header>nav>.gnb>li.on>a{
+	color: yellow;
+	text-shadow: 0 3px 7px rgba(0, 0, 0,0.35);
+}
+section{
+	padding: 30px 10px 20px;
+	background-color: white;
+	border-left: 3px solid #333;
+	border-right: 3px solid #333;
+}
+section>h2{
+	font-size: 25px;
+	margin-bottom: 25px;
+}
+section>p{
+	font-size: 14px;
+	line-height: 1.4;
+	text-align: justify;
+	
+}
+
+section>p>.frame{
+	display: block;
+	overflow: hidden;
+	float: right;
+	width: 300px;
+	height: 380px;
+	margin: 3px 0 0 10px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 7px rgba(0,0,0,0.35);
+}
+section>p>.frame>img{
+	display: block;
+	width: 100%;
+}
+
+footer>address{color:white;}
+
+footer{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	height: 80px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
